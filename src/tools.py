@@ -282,7 +282,7 @@ def register_tools(mcp: MCPServer) -> None:
         Fetch one Jira issue by key or ID.
 
         Args:
-            issue_key: Jira issue key such as MA-2161.
+            issue_key: Jira issue key such as ABC-123.
         """
         return get_jira_issue_data(issue_key)
 
