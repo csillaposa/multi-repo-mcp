@@ -1,0 +1,13 @@
+repositories:
+  backend:
+    path: ../my-backend
+    enabled: true
+    verification:
+      tests:
+        - uv
+        - run
+        - pytest
+
+  frontend:
+    path: ../my-frontend
+    enabled: false
